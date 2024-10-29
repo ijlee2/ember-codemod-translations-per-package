@@ -1,4 +1,8 @@
-import { analyzeTemplates, createOptions } from './steps/index.js';
+import {
+  analyzeTemplates,
+  createOptions,
+  createTranslations,
+} from './steps/index.js';
 import type { CodemodOptions } from './types/index.js';
 
 export function runCodemod(codemodOptions: CodemodOptions): void {
@@ -6,5 +10,5 @@ export function runCodemod(codemodOptions: CodemodOptions): void {
 
   const translationKeys = analyzeTemplates(options);
 
-  console.log(translationKeys);
+  createTranslations(translationKeys, options);
 }
