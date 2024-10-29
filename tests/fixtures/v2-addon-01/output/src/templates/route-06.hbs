@@ -1,0 +1,10 @@
+{{#let
+  (if
+    this.someCondition
+    (t "v2-addon-01.route-06.key-01")
+    (t "v2-addon-01.route-06.key-02")
+  )
+  as |someTranslation|
+}}
+  {{someTranslation}}
+{{/let}}

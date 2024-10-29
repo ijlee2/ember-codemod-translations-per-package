@@ -15,9 +15,37 @@
 # Compile TypeScript
 pnpm build
 
-# Update fixtures
-rm -r "tests/fixtures/my-project/output"
-cp -r "tests/fixtures/my-project/input" "tests/fixtures/my-project/output"
+# Update app-01
+rm -r "tests/fixtures/app-01/output"
+cp -r "tests/fixtures/app-01/input" "tests/fixtures/app-01/output"
 
 ./dist/bin/ember-codemod-translations-per-package.js \
-  --root "tests/fixtures/my-project/output"
+  --root "tests/fixtures/app-01/output"
+
+# Update v1-addon-01
+rm -r "tests/fixtures/v1-addon-01/output"
+cp -r "tests/fixtures/v1-addon-01/input" "tests/fixtures/v1-addon-01/output"
+
+./dist/bin/ember-codemod-translations-per-package.js \
+  --root "tests/fixtures/v1-addon-01/output"
+
+# Update v1-addon-02
+rm -r "tests/fixtures/v1-addon-02/output"
+cp -r "tests/fixtures/v1-addon-02/input" "tests/fixtures/v1-addon-02/output"
+
+./dist/bin/ember-codemod-translations-per-package.js \
+  --root "tests/fixtures/v1-addon-02/output"
+
+# Update v1-addon-03
+rm -r "tests/fixtures/v1-addon-03/output"
+cp -r "tests/fixtures/v1-addon-03/input" "tests/fixtures/v1-addon-03/output"
+
+./dist/bin/ember-codemod-translations-per-package.js \
+  --root "tests/fixtures/v1-addon-03/output"
+
+# Update v2-addon-01
+rm -r "tests/fixtures/v2-addon-01/output"
+cp -r "tests/fixtures/v2-addon-01/input" "tests/fixtures/v2-addon-01/output"
+
+./dist/bin/ember-codemod-translations-per-package.js \
+  --root "tests/fixtures/v2-addon-01/output"

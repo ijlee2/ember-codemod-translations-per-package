@@ -1,0 +1,10 @@
+{
+  "name": "v1-addon-03",
+  "version": "0.0.0",
+  "keywords": [
+    "ember-addon"
+  ],
+  "ember-addon": {
+    "configPath": "tests/dummy/config"
+  }
+}
