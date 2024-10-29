@@ -1,0 +1,38 @@
+v2-addon-01.component-01:
+  key-01: some value
+v2-addon-01.component-02:
+  key-01: some value
+v2-addon-01.component-03:
+  key-01: some value
+v2-addon-01.component-04:
+  key-01: some value
+  key-02: some value
+v2-addon-01.component-05:
+  key-01: some value
+  key-02: some value
+  key-03: some value
+v2-addon-01.component-06:
+  key-01: some value
+  key-02: some value
+v2-addon-01.component-07:
+  subcomponent-01:
+    key-01: some value
+v2-addon-01.route-01:
+  key-01: some value
+v2-addon-01.route-02:
+  key-01: some value
+v2-addon-01.route-03:
+  key-01: some value
+v2-addon-01.route-04:
+  key-01: some value
+  key-02: some value
+v2-addon-01.route-05:
+  key-01: some value
+  key-02: some value
+  key-03: some value
+v2-addon-01.route-06:
+  key-01: some value
+  key-02: some value
+v2-addon-01.route-07:
+  subroute-01:
+    key-01: some value
